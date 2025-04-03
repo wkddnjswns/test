@@ -5,14 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Markdown 노트</title>
     <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
 <body>
-    <h1>Markdown 메모장</h1>
+    <h1>Markdown 노트</h1>
     <textarea id="editor" placeholder="여기에 Markdown을 입력하세요..."></textarea>
+    <button id="clear-btn">초기화</button>
+    <h2>미리보기</h2>
     <div id="preview"></div>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/4.0.12/marked.min.js"></script>
-    <script src="script.js"></script>
-    <!-- test -->
 </body>
 </html>
+
